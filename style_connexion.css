@@ -1,0 +1,93 @@
+/* Styles spécifiques pour la page de connexion */
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #eb9494;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.login-container {
+    width: 400px;
+    background-color: #f2f2f2; /* Fond gris */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    position: relative; /* Position relative pour que le logo soit positionné par rapport à cela */
+}
+
+.logo-container {
+    position: absolute;
+    top: -70px; /* Déplace le logo vers le haut de 70px */
+    left: 50%; /* Centre horizontalement */
+    transform: translateX(-50%); /* Centre horizontalement */
+}
+
+.logo {
+    height: 50px; /* Ajustez la taille selon votre besoin */
+}
+.login-box {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.login-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #a3a0a0; /* Couleur du texte */
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold; /* Pour mettre en gras */
+    color: #a3a0a0; /* Couleur du texte */
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box; /* Pour inclure le padding dans la largeur */
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.button-group button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.btn-left {
+    background-color: #aaa;
+    color: #fff;
+}
+
+.btn-right {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-left:hover {
+    background-color: #686868; /* Couleur bleue foncée au survol */
+}
+
+.btn-right:hover {
+    background-color: #0056b3; /* Couleur bleue foncée au survol */
+}
+
